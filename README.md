@@ -1,6 +1,8 @@
-# Create your own Markdown profile and adventure
+# Create your own CYOA profile.md
 
-Use this template to build a CYOA profile.md for yourself as a sovereign individual piloting your AI. Your AI uses your CV and the work you choose to share to assemble your profile, following the structure of [benohanlon.md](https://benohanlon.md/benohanlon.md). Visitors can then explore your work in their own AI.
+Share your CYOA profile.md alongside your résumé. Someone can give it to their own AI to ask questions about you and explore the parts of your work that matter to them.
+
+You’re the sovereign individual piloting your AI. Give it your résumé and the work you want to share. It uses this template and [benohanlon.md](https://benohanlon.md/benohanlon.md) as structural guides to build your profile.
 
 ## Make your own
 

@@ -1,6 +1,6 @@
-# CYOA profile.md template
+# Create your own CYOA profile.md
 
-A template for you, the sovereign individual piloting your AI. Start by giving your AI your CV or résumé. It uses this template and [benohanlon.md](https://benohanlon.md/benohanlon.md) for structure, and your own material to build a public profile visitors can explore in their AI.
+Share your CYOA profile.md alongside your résumé so someone can give it to their own AI and ask questions about you and your work. You’re the pilot. Give your AI your CV or résumé to get started. It uses this template and [benohanlon.md](https://benohanlon.md/benohanlon.md) for structure and your own material for the profile.
 
 [Copy the rebuild prompt from the README](https://github.com/benohanlon/profile-md-template#make-your-own).
 
