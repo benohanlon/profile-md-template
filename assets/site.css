@@ -1,0 +1,82 @@
+:root {
+  color-scheme: dark;
+  color: #e3eeea;
+  background: #092322;
+  font: 1rem/1.6 system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(64rem, calc(100% - 2rem)); margin: 2rem auto 3.5rem; }
+a { color: #b9eddb; text-underline-offset: .2em; }
+a:hover { color: #ffdb9c; }
+:focus-visible { outline: 2px solid #ec9a4e; outline-offset: 4px; }
+button {
+  font: inherit;
+  color: #082321;
+  background: #b9eddb;
+  border: 0;
+  border-radius: .35rem;
+  padding: .55rem .85rem;
+  cursor: pointer;
+}
+h1, h2 { line-height: 1.15; }
+h1 { font-size: clamp(2rem, 5.5vw, 3.1rem); }
+h2 { font-size: 1.2rem; }
+.opening, .spread { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1rem, 4vw, 2.5rem); align-items: center; }
+.cover {
+  display: grid;
+  align-content: space-between;
+  gap: 1rem;
+  min-height: 13rem;
+  padding: clamp(1rem, 4vw, 2rem);
+  border: 1px solid #c4a77b;
+  border-inline-start: .65rem solid #a67f53;
+  border-radius: .25rem .5rem .5rem .25rem;
+  color: #1a3935;
+  background: #f6ead2;
+  font-family: Georgia, serif;
+  text-decoration: none;
+}
+.cover:hover { color: #204e49; background: #fcf0d9; }
+.cover strong { font-size: clamp(2rem, 5.5vw, 3.45rem); line-height: 1.05; }
+.cover span:last-child { text-decoration: underline; text-underline-offset: .2em; }
+.prompt {
+  border: 1px solid #42716b;
+  border-radius: .45rem;
+  padding: 1rem;
+  background: #103432;
+  color: #e3eeea;
+  overflow-wrap: anywhere;
+}
+.prompt h2 { margin-top: 0; }
+.prompt blockquote {
+  margin: .75rem 0;
+  padding-inline-start: .8rem;
+  border-inline-start: 3px solid #e58d42;
+  color: #ffdb9c;
+}
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: .8rem; }
+[data-status]:empty { margin: 0; }
+[data-status] { margin-bottom: 0; }
+.profile { width: min(100%, 46rem); margin: clamp(1.5rem, 5vw, 3rem) auto 0; }
+.profile h1 { color: #ffb274; margin-bottom: .6rem; }
+.profile > h2, .profile > details { border-top: 1px solid #355b58; padding-top: .8rem; margin-top: 1.5rem; }
+.profile blockquote { margin-inline: 0; color: #b6cfca; }
+summary { cursor: pointer; }
+nav { margin-bottom: 1rem; }
+.spread { align-items: stretch; gap: .45rem; }
+.leaf {
+  color-scheme: light;
+  background: #f6ead2;
+  color: #28372d;
+  padding: clamp(1rem, 4vw, 2rem);
+  border: 1px solid #d2b98f;
+  border-radius: .4rem;
+}
+.leaf h1 { font-family: Georgia, serif; margin-top: .4em; }
+.leaf .prompt { color-scheme: dark; }
+.leaf .actions { margin-top: .8rem; }
+.series { color: #714627; }
+@media (max-width: 42rem) {
+  .opening, .spread { grid-template-columns: minmax(0,1fr); gap: 1rem; }
+}
