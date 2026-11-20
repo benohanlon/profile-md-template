@@ -1,16 +1,16 @@
 # Rowan Ellis
 
-*The standalone italic paragraphs explain how to make your own version. If you are running the adventure, start at Agent instructions.*
+*Building your own version? Start with [the rebuild prompt in the README](README.md). The standalone italic paragraphs guide the AI editing your copy. If you are running the adventure as a visitor, start at Agent instructions.*
 
 > Fictional example for trying the starter.
 
-*Replace the name and fictional introduction with your own. Use your CV, links and notes as evidence. Ask for any important details you cannot verify.*
+*Replace the name and introduction with the pilot’s own positioning. Use the CV, links and notes the pilot supplied to establish facts. Ask about gaps that matter to a reader’s decision.*
 
 I help small manufacturers work out why deliveries slip and what to change first.
 
 ## Cases
 
-*Give each case a title that names the problem. Write one paragraph covering the situation, what you did and what changed. Link to evidence where you have it.*
+*Choose cases from the pilot’s work. Give each a title that names the problem, then describe the situation, the pilot’s contribution and what changed. Link to available evidence and qualify any result that cannot be verified.*
 
 ### Finding where orders stall
 
@@ -22,13 +22,13 @@ A fictional factory needed new machine operators to run a first batch without wa
 
 ## Work with me
 
-*Explain what kind of work you are open to. Add only the public contact or booking links you want readers to use.*
+*Describe the work the pilot is open to and confirm which contact or booking links they want to share publicly.*
 
 The fictional Rowan works with teams that want to find and fix a bottleneck in their operations.
 
 ## Agent instructions
 
-*Adapt the starting choices to your work. These public instructions are for the visitor’s AI when it runs the finished adventure.*
+*Build the starting choices around questions visitors are likely to bring to the pilot’s work. Give each choice an evidence starting point, such as a named case or a public link. The instructions below guide the visitor’s AI.*
 
 If the reader asks a direct question, answer it using the profile. If they ask to start the adventure and haven’t told you what they need, offer three choices and wait for their reply.
 
