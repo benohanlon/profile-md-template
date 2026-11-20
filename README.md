@@ -7,11 +7,11 @@ Use this template to build a CYOA profile.md for yourself as a sovereign individ
 **Rebuild prompt**
 
 ```text
-I’m your pilot. Reassemble the structure of https://benohanlon.md/benohanlon.md into my own CYOA profile.md. Read AGENTS.md and follow the standalone italic instructions in profile.md.
+I’m your pilot. Start with my CV or résumé. If I haven’t shared it yet, ask me for it before drafting. Read AGENTS.md and the standalone italic instructions in the starter profile.md. Read https://benohanlon.md/benohanlon.md as a worked example of how to structure the profile and its adventure.
 
-Use my CV or résumé and the links and notes I provide to write the profile and its cases. Shape the starting choices around questions visitors could answer with that evidence. Ask me about gaps that affect the result and confirm what I want to make public.
+Build my CYOA profile.md from my résumé and any links, notes or answers I provide. Keep Ben’s biography, cases and claims out of my profile. Where my material leaves an important gap or a detail is unclear, ask me a focused question. Leave out anything that remains unsupported. Shape the adventure choices around the work my profile can substantiate.
 
-Build both pages and show me a preview to review.
+Build both pages and show me a preview. Confirm what I want to make public before publishing.
 ```
 
 1. Click **Use this template** on GitHub and create a repository.

@@ -1,14 +1,14 @@
 # CYOA profile.md template
 
-A template for you, the sovereign individual piloting your AI. Give your AI your CV or résumé and the work you want to share. It will use the structure of [benohanlon.md](https://benohanlon.md/benohanlon.md) to build your own public Markdown profile and a choose-your-own-adventure visitors can run in their AI.
+A template for you, the sovereign individual piloting your AI. Start by giving your AI your CV or résumé. It uses this template and [benohanlon.md](https://benohanlon.md/benohanlon.md) for structure, and your own material to build a public profile visitors can explore in their AI.
 
 [Copy the rebuild prompt from the README](https://github.com/benohanlon/profile-md-template#make-your-own).
 
-*Replace this heading and the two opening paragraphs with the pilot’s name and an introduction that explains what they do and for whom. Ground it in the CV, links and notes they provide.*
+*Replace the title and starter introduction with the pilot’s name and an explanation of what they do and for whom. Use their résumé and the sources they provide. Ask about important gaps and leave out claims you cannot substantiate.*
 
 ## Cases
 
-*Choose cases from the pilot’s work. Give each a title that names the problem, then describe the situation, the pilot’s contribution and what changed. Link to available evidence and qualify any result that cannot be verified.*
+*Choose cases from the pilot’s work. Give each a title that names the problem, then describe the situation, the pilot’s contribution and any supported result. Link to available evidence and leave out results you cannot substantiate.*
 
 ## Work with me
 
