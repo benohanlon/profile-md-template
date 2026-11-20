@@ -1,17 +1,17 @@
 # Create your own Markdown profile and adventure
 
-This starter turns one Markdown file into a public profile and a choose-your-own-adventure that visitors can run in their own AI. [See the finished example at benohanlon.md](https://benohanlon.md/).
+Use this template to build a CYOA profile.md for yourself as a sovereign individual piloting your AI. Your AI uses your CV and the work you choose to share to assemble your profile, following the structure of [benohanlon.md](https://benohanlon.md/benohanlon.md). Visitors can then explore your work in their own AI.
 
 ## Make your own
 
 **Rebuild prompt**
 
 ```text
-Reassemble profile.md as a public profile and choose-your-own-adventure for your pilot, the person whose CV or résumé I provide. Read AGENTS.md and follow the standalone italic instructions in profile.md.
+I’m your pilot. Reassemble the structure of https://benohanlon.md/benohanlon.md into my own CYOA profile.md. Read AGENTS.md and follow the standalone italic instructions in profile.md.
 
-Use the CV and any links or notes the pilot provides as evidence. Use benohanlon.md as a finished example of the structure. Replace the fictional profile, cases and starting choices with the pilot’s own work. Ask about gaps that affect the result, and confirm what the pilot wants to make public.
+Use my CV or résumé and the links and notes I provide to write the profile and its cases. Shape the starting choices around questions visitors could answer with that evidence. Ask me about gaps that affect the result and confirm what I want to make public.
 
-Build both pages and show the pilot a preview for review.
+Build both pages and show me a preview to review.
 ```
 
 1. Click **Use this template** on GitHub and create a repository.

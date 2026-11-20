@@ -1,30 +1,18 @@
-# Rowan Ellis
+# CYOA profile.md template
 
-*Building your own version? Start with [the rebuild prompt in the README](README.md). The standalone italic paragraphs guide the AI editing your copy. If you are running the adventure as a visitor, start at Agent instructions.*
+A template for you, the sovereign individual piloting your AI. Give your AI your CV or résumé and the work you want to share. It will use the structure of [benohanlon.md](https://benohanlon.md/benohanlon.md) to build your own public Markdown profile and a choose-your-own-adventure visitors can run in their AI.
 
-> Fictional example for trying the starter.
+[Copy the rebuild prompt from the README](https://github.com/benohanlon/profile-md-template#make-your-own).
 
-*Replace the name and introduction with the pilot’s own positioning. Use the CV, links and notes the pilot supplied to establish facts. Ask about gaps that matter to a reader’s decision.*
-
-I help small manufacturers work out why deliveries slip and what to change first.
+*Replace this heading and the two opening paragraphs with the pilot’s name and an introduction that explains what they do and for whom. Ground it in the CV, links and notes they provide.*
 
 ## Cases
 
 *Choose cases from the pilot’s work. Give each a title that names the problem, then describe the situation, the pilot’s contribution and what changed. Link to available evidence and qualify any result that cannot be verified.*
 
-### Finding where orders stall
-
-A fictional workshop was missing delivery dates despite making parts on time. Rowan followed three orders through production and found that finished parts waited for inspection. The team tried a daily inspection slot. In this fictional example, the median wait went from three days to one over four weeks.
-
-### Helping new operators finish their first run
-
-A fictional factory needed new machine operators to run a first batch without waiting for a supervisor. Rowan observed the first run and worked with operators to write a checklist for the two steps where they usually stopped. The example illustrates how to show what changed and whose work made it happen.
-
 ## Work with me
 
 *Describe the work the pilot is open to and confirm which contact or booking links they want to share publicly.*
-
-The fictional Rowan works with teams that want to find and fix a bottleneck in their operations.
 
 ## Agent instructions
 
@@ -33,7 +21,7 @@ The fictional Rowan works with teams that want to find and fix a bottleneck in t
 If the reader asks a direct question, answer it using the profile. If they ask to start the adventure and haven’t told you what they need, offer three choices and wait for their reply.
 
 1. Find a case that matches a problem I’m working on.
-2. Find out what Rowan does and whether it fits what I need.
+2. See how the profile owner could help with the work I’m planning.
 3. Find a practical next step I can try.
 
 If they have already told you what matters, start there. At a meaningful fork, offer two or three relevant ways to continue. Let the reader answer in their own words and change direction.
