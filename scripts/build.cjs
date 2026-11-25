@@ -4,7 +4,13 @@ const { Marked } = require('./vendor/marked.umd.js');
 
 const root = path.join(__dirname, '..');
 const source = fs.readFileSync(path.join(root, 'profile.md'), 'utf8');
-const markdown = new Marked({ renderer: { html() { return ''; } } });
+const slug = text => text.toLowerCase().replace(/[^\p{L}\p{N}\s_-]/gu, '').trim().replace(/\s+/g, '-');
+const markdown = new Marked({ renderer: {
+  html() { return ''; },
+  heading({ depth, text, tokens }) {
+    return `<h${depth} id="${slug(text)}">${this.parser.parseInline(tokens)}</h${depth}>\n`;
+  }
+} });
 const tokens = markdown.lexer(source);
 const name = tokens.find(token => token.type === 'heading' && token.depth === 1)?.text;
 const guidance = tokens.findIndex(token => token.type === 'heading' && token.text === 'Agent instructions');
@@ -21,10 +27,32 @@ function render(blocks) {
 
 const safeName = name.replace(/[&<>"']/g, character =>
   ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
-const profile = render(tokens.slice(0, guidance));
+function subsection(title) {
+  const start = tokens.findIndex(token => token.type === 'heading' && token.text === title);
+  if (start < 0) return [];
+  const rest = tokens.slice(start + 1);
+  const end = rest.findIndex(token => token.type === 'heading' && token.depth <= tokens[start].depth);
+  return end < 0 ? rest : rest.slice(0, end);
+}
+const publicBlocks = tokens.slice(0, guidance);
+const fit = publicBlocks.findIndex(token => token.type === 'heading' && token.text === 'Where I’m a good fit');
+let profile = render(publicBlocks);
+if (fit >= 0) {
+  const end = fit + 1 + subsection('Where I’m a good fit').length;
+  profile = render(publicBlocks.slice(0, fit)) +
+    '<details id="where-im-a-good-fit"><summary>Where I’m a good fit</summary>' +
+    render(publicBlocks.slice(fit + 1, end)) + '</details>' + render(publicBlocks.slice(end));
+}
+const chapter = render(subsection('Opening')) + render(subsection('Where would you like to begin?'))
+  .replace(/href="#/g, 'href="./index.html#');
 const instructions = render(tokens.slice(guidance + 1));
 const longPrompt = render(tokens.slice(ooda + 1));
 const profileLink = '<a data-profile-link href="./profile.md">profile.md</a>';
+const quickstartLink = '<a data-profile-link href="./agent-quickstart.md">agent-quickstart.md</a>';
+const readerGuide = tokens.slice(guidance + 1)
+  .filter(token => !(token.type === 'paragraph' && token.tokens.length === 1 && token.tokens[0].type === 'em'))
+  .map(token => token.raw).join('').replace(/\]\(#/g, '](./profile.md#')
+  .replace(/Read \[the agent quickstart\]\(\.\/agent-quickstart\.md\) first\. /, '');
 
 function prompt(content) {
   return `<section class="prompt" aria-label="Copy and paste into your AI">
@@ -58,6 +86,7 @@ ${body}
 }
 
 const pages = {
+  'agent-quickstart.md': `# Agent quickstart\n\nRead [the profile](./profile.md) for the owner’s public evidence.\n\n${readerGuide.trim()}\n`,
   'index.html': page(safeName, `<div class="opening">
   <a class="cover" href="./adventure.html">
     <span>Choose your own adventure</span>
@@ -65,10 +94,10 @@ const pages = {
     <span>Turn to page one →</span>
   </a>
   ${prompt(`<h2>Copy and paste this into your AI</h2>
-  <blockquote data-prompt><p>Read ${profileLink} and run a choose-your-own-adventure from the Markdown. Give me the choices and I’ll reply.</p></blockquote>`)}
+  <blockquote data-prompt><p>Read ${quickstartLink} first, then run a choose-your-own-adventure from ${profileLink}. Give me the choices and I’ll reply.</p></blockquote>`)}
 </div>
 <article class="profile">
-  <a href="./profile.md">Read profile.md</a>
+  <a href="./profile.md">Read profile.md</a> · <a href="./profile.md" download>Download Markdown</a>
   ${profile}
   <details><summary>Agent instructions</summary>${instructions}</details>
 </article>`),
@@ -77,14 +106,14 @@ const pages = {
   <section class="leaf">
     <p class="series">Choose your own adventure</p>
     <h1>Find your next move</h1>
-    <p>What are you trying to change? How will you know you’ve made progress?</p>
+    ${chapter || '<p>What are you trying to change? How will you know you’ve made progress?</p>'}
   </section>
   <section class="leaf">
     <h2>Brief your AI</h2>
     ${prompt(`<details>
       <summary>Read the full prompt</summary>
       <blockquote data-prompt>
-        <p>Start with ${profileLink}. Read its Agent instructions and follow the links relevant to my question or decision. If you can’t open the Markdown, ask me to paste it or upload it.</p>
+        <p>Start with ${quickstartLink}, then use ${profileLink} and the evidence relevant to my question or decision. If you can’t open the Markdown, ask me to paste it or upload it.</p>
         ${longPrompt}
       </blockquote>
     </details>`)}

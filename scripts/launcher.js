@@ -1,6 +1,14 @@
 const prompt = document.querySelector('[data-prompt]');
-const profileLink = prompt.querySelector('[data-profile-link]');
-if (location.protocol === 'https:' || location.protocol === 'http:') profileLink.textContent = profileLink.href;
+if (location.protocol === 'https:' || location.protocol === 'http:') {
+  for (const link of prompt.querySelectorAll('[data-profile-link]')) link.textContent = link.href;
+}
+function openLinkedSection() {
+  const target = document.getElementById(location.hash.slice(1));
+  const details = target?.closest('details');
+  if (details) details.open = true;
+}
+openLinkedSection();
+window.addEventListener('hashchange', openLinkedSection);
 const promptText = Array.from(prompt.children, paragraph => paragraph.textContent.trim()).join('\n\n');
 const status = document.querySelector('[data-status]');
 const copy = document.querySelector('[data-copy]');

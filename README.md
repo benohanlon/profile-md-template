@@ -6,14 +6,16 @@ You’re the sovereign individual piloting your AI. Give it your résumé and th
 
 ## Make your own
 
+The starter profile belongs to Rowan Bell, a fictional community repair organiser. It demonstrates an origin story, work preferences, an expandable “Where I’m a good fit”, a case, a working method and writing. The adventure adds a scene, three opening choices, six reader routes and a longer OODA prompt. All example material is disposable. Standalone italic paragraphs in `profile.md` tell the rebuilding AI what belongs in each section.
+
 **Rebuild prompt**
 
 ```text
 I’m your pilot. Start with my CV or résumé. If I haven’t shared it yet, ask me for it before drafting. Read AGENTS.md and the standalone italic instructions in the starter profile.md. Read https://benohanlon.md/benohanlon.md as a worked example of how to structure the profile and its adventure.
 
-Build my CYOA profile.md from my résumé and any links, notes or answers I provide. Keep Ben’s biography, cases and claims out of my profile. Where my material leaves an important gap or a detail is unclear, ask me a focused question. Leave out anything that remains unsupported. Shape the adventure choices around the work my profile can substantiate.
+Build my CYOA profile.md from my résumé and any links, notes or answers I provide. Replace all fictional material. Use Ben’s profile only for structure. Ask me what work I want, where I’m a good fit and which introductions I welcome. Use my supported cases, methods, writing, projects and approved contact routes. Ask a focused question about any material gap and leave out unsupported claims. Write my opening scene and choices, and connect each to evidence about me.
 
-Build both pages and show me a preview. Confirm what I want to make public before publishing.
+Generate both pages and the agent quickstart. Show me the preview and walk one reader question from the opening to the evidence. Confirm what I want to make public before publishing.
 ```
 
 1. Click **Use this template** on GitHub and create a repository.
