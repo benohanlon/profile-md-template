@@ -1,47 +1,38 @@
-# Rowan Bell
+# [Your name]
 
-**Fictional worked example** · Community repair organiser
+*Standalone italic paragraphs are instructions for your AI. Use [benohanlon.md](https://benohanlon.md/benohanlon.md) as the live worked example. Fill the bracketed fields from your own sources. Remove unused fields and rebuild notes before publishing.*
 
-*Every standalone italic paragraph is guidance for the AI rebuilding this file. All names, projects, figures, relationships and preferences below are synthetic. Replace them with the pilot’s own supported material. Remove the example label and all rebuild notes from the personalised copy.*
-
-I organise neighbourhood repair events. I started on the welcome desk and now work with volunteers and libraries to make it easier for newcomers to get their first repair under way.
+[What you do, for whom, and the experience that brought you here.]
 
 ## Work with me
 
-I’m open to short projects with libraries and volunteer groups setting up repair sessions.
+[The roles or projects you welcome.]
 
 ### Where I’m a good fit
 
-- **Community repair** — helping volunteer teams run their first public repair session.
-- **Public libraries** — making practical skills programmes accessible to new visitors.
+- **[Area of interest]** — [the problem you want to work on and what you can contribute].
 
-Across both, I enjoy organising partnerships and making the handoff between the welcome desk and repairers work smoothly.
-
-*Ask which sectors, problems and types of work interest the pilot. Distinguish where they want to work from how they contribute. Confirm employment or project preferences, location and any public email, booking, résumé or social links. Keep contact links outside the fit subsection, under their own heading if present.*
+*Ask about sectors, problems, capabilities and useful introductions.*
 
 ### Contact
 
-For this fictional example there is no public contact address.
+[Your preferred public contact route.]
 
 ## Cases
 
-### Shortening the queue for a first repair
+### [Problem solved]
 
-**Volunteer operations** · At a fictional Saturday clinic, new arrivals waited while the welcome desk searched for a repairer. I introduced a parts checklist and agreed a handoff with the repairers. Our fictional event log recorded median check-in falling from twelve minutes to seven across two sessions. We have no evidence yet about busier events.
+**[Capability]** · [The situation, your contribution, who else was involved and what changed.]
 
-*Use a recognisable problem as the case title. Name the capability, situation, personal contribution, collaborators and result. Link the evidence and distinguish measured outcomes from interpretation.*
+*Link the evidence. Update the adventure link when you rename the case.*
 
 ## How I work
 
-I start where a visitor gets stuck. I follow one item from arrival to repair, ask the people at each station what they need, and agree one change they can try at the next event.
-
-*Use the pilot’s own method or playbook if they have one. Ben’s EOS playbook illustrates what a method section can contain.*
+[Your method or playbook and when you use it.]
 
 ## Writing and projects
 
-**The repair desk notebook** is my fictional field guide to welcoming first-time visitors. Its starting question is what a newcomer needs to know in the first five minutes.
-
-*Link real writing, projects and reading that the pilot wants to share. Explain what each lets the reader explore. Remove unsupported examples.*
+[A piece of writing or project, its public link and the question it explores.]
 
 ## Agent instructions
 
@@ -49,13 +40,13 @@ Read [the agent quickstart](./agent-quickstart.md) first. Answer direct question
 
 ### Opening
 
-You arrive at a library repair session with a broken lamp. Volunteers are ready to fix it, but nobody knows who should take it first. That was the problem Rowan worked on.
+[Set the scene using the owner’s experience and a question the reader might bring.]
 
 ### Where would you like to begin?
 
-1. [How did Rowan shorten the queue?](#shortening-the-queue-for-a-first-repair)
-2. [What makes a good handoff?](#how-i-work)
-3. [Could Rowan work with our library?](#where-im-a-good-fit)
+1. [How have you solved a problem like mine?](#problem-solved)
+2. [How do you approach this work?](#how-i-work)
+3. [Could we work together?](#where-im-a-good-fit)
 
 *Write a scene grounded in the pilot’s work and two or three opening questions that lead somewhere useful. Match every link to a real heading or public source in the rebuilt profile.*
 

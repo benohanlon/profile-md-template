@@ -6,13 +6,13 @@ Answer direct questions immediately. When a reader chooses the adventure, set th
 
 ### Opening
 
-You arrive at a library repair session with a broken lamp. Volunteers are ready to fix it, but nobody knows who should take it first. That was the problem Rowan worked on.
+[Set the scene using the owner’s experience and a question the reader might bring.]
 
 ### Where would you like to begin?
 
-1. [How did Rowan shorten the queue?](./profile.md#shortening-the-queue-for-a-first-repair)
-2. [What makes a good handoff?](./profile.md#how-i-work)
-3. [Could Rowan work with our library?](./profile.md#where-im-a-good-fit)
+1. [How have you solved a problem like mine?](./profile.md#problem-solved)
+2. [How do you approach this work?](./profile.md#how-i-work)
+3. [Could we work together?](./profile.md#where-im-a-good-fit)
 
 
 
