@@ -19,7 +19,7 @@ Build both pages and show me a preview. Confirm what I want to make public befor
 1. Click **Use this template** on GitHub and create a repository.
 2. Open your copy with an AI that can edit its files. Give it your CV and any links you want to use, then paste the rebuild prompt.
 3. Review `profile.md` and open both generated pages. To generate them yourself, run `node scripts/build.cjs`.
-4. When you’re ready to publish, commit your changes and enable GitHub Pages from the root of your default branch. Your Markdown will be available at `profile.md` on your site. A custom domain is optional. [GitHub Pages setup](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+4. Before publishing, state in your README which terms apply to the biography, writing and artwork you add. Keep the starter’s MIT notice and the bundled parser’s own notice. When you’re ready to publish, commit your changes and enable GitHub Pages from the root of your default branch. Your Markdown will be available at `profile.md` on your site. A custom domain is optional. [GitHub Pages setup](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 ## Join in
 
