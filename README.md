@@ -25,6 +25,8 @@ Generate both pages and the agent quickstart. Show me the preview and walk one r
 
 ## Join in
 
+Ben O’Hanlon is launching this CYOA profile.md template through [AI Builders LCR](https://www.aibuilderslcr.co.uk/), the Liverpool City Region community for people building with AI. Thanks to Alex Keyter ([@a-keyter](https://github.com/a-keyter)) from Generative Minds for helping bring the community together.
+
 - [Show what you built](https://github.com/benohanlon/profile-md-template/discussions). Share a link and tell us where you got stuck.
 - [Contribute to the starter](CONTRIBUTING.md). Report a problem, suggest an improvement or submit a fix.
 
