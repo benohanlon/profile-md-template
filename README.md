@@ -1,12 +1,14 @@
-# Create your own CYOA profile.md
+# Create your own profile.md
 
-Share your CYOA profile.md alongside your résumé. Someone can give it to their own AI to ask questions about you and explore the parts of your work that matter to them.
+A `profile.md` is a Markdown file people can give to their own AI to explore your work. They bring their own questions and get to what matters to them first. They can ask directly or run it as a Choose Your Own Adventure.
 
-You’re the sovereign individual piloting your AI. Give it your résumé and the work you want to share. It uses this template and [benohanlon.md](https://benohanlon.md/benohanlon.md) as structural guides to build your profile.
+**[Create your own profile.md](#make-your-own)** · [Try Ben’s worked example](https://benohanlon.md/)
 
 ## Make your own
 
-The starter has bracketed placeholders for your introduction, work preferences, cases, method and writing. Standalone italic paragraphs guide your AI. Use [benohanlon.md](https://benohanlon.md/benohanlon.md) as the live worked example.
+Bring your CV or résumé and a few examples of work you want to share. Use the starter to assemble your profile, with [Ben’s Markdown source](https://benohanlon.md/benohanlon.md) as a worked example.
+
+The starter has bracketed placeholders for your introduction, work preferences, cases, method and writing. Standalone italic paragraphs guide your AI.
 
 **Rebuild prompt**
 
@@ -20,8 +22,8 @@ Generate both pages and the agent quickstart. Show me the preview and walk one r
 
 1. Click **Use this template** on GitHub and create a repository.
 2. Open your copy with an AI that can edit its files. Give it your CV and any links you want to use, then paste the rebuild prompt.
-3. Review `profile.md` and open both generated pages. To generate them yourself, run `node scripts/build.cjs`.
-4. Before publishing, state in your README which terms apply to the biography, writing and artwork you add. Keep the starter’s MIT notice and the bundled parser’s own notice. When you’re ready to publish, commit your changes and enable GitHub Pages from the root of your default branch. Your Markdown will be available at `profile.md` on your site. A custom domain is optional. [GitHub Pages setup](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+3. Review `profile.md` and preview both generated pages. Try a real question and follow it to the evidence. To generate the pages yourself, run `node scripts/build.cjs`.
+4. Choose what you want to make public. Before publishing, state in your README which terms apply to the biography, writing and artwork you add. Keep the starter’s MIT notice and the bundled parser’s own notice. When you’re ready to publish, commit your changes and enable GitHub Pages from the root of your default branch. Your Markdown will be available at `profile.md` on your site. A custom domain is optional. [GitHub Pages setup](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
 ## Join in
 
