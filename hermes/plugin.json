@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "cyoa-profile",
+  "version": "1.0.0",
+  "description": "Build a Choose Your Own Adventure profile.md to share alongside your CV or in a follow-up.",
+  "author": {
+    "name": "Ben O’Hanlon"
+  },
+  "homepage": "https://hiddenjobs.ai/profile-md/",
+  "repository": "https://github.com/benohanlon/profile-md-template",
+  "license": "MIT",
+  "keywords": ["profile", "markdown", "portfolio", "career"]
+}

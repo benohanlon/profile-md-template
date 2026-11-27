@@ -1,8 +1,12 @@
 # Create your own profile.md
 
-A `profile.md` is a Markdown file people can give to their own AI to explore your work. They bring their own questions and get to what matters to them first. They can ask directly or run it as a Choose Your Own Adventure.
+Share a `profile.md` alongside your CV or in a follow-up. Send a short prompt that points to your profile. People paste it into their own AI, ask their own questions and get straight to the work that matters to them. They can also explore it as a Choose Your Own Adventure.
 
 **[Create your own profile.md](#make-your-own)** · [Try Ben’s worked example](https://benohanlon.md/)
+
+## Use with Hermes
+
+Use the [CYOA Profile skill](hermes/README.md) to draft your profile in Hermes and prepare the prompt you’ll share.
 
 ## Make your own
 
@@ -27,7 +31,9 @@ Generate both pages and the agent quickstart. Show me the preview and walk one r
 
 ## Join in
 
-Ben O’Hanlon is launching this CYOA profile.md template through [AI Builders LCR](https://www.aibuilderslcr.co.uk/), the Liverpool City Region community for people building with AI. Thanks to Alex Keyter ([@a-keyter](https://github.com/a-keyter)) from Generative Minds for helping bring the community together.
+Ben O’Hanlon demoed CYOA Profile at [AI Builders LCR](https://www.aibuilderslcr.co.uk/), the Liverpool City Region community for people building with AI. Thanks to Alex Keyter ([@a-keyter](https://github.com/a-keyter)) from Generative Minds for helping bring the community together.
+
+To test it, ask a question you would actually ask a prospective collaborator. Tell us what you asked, whether you reached something useful and where you got stuck. [Give feedback](https://hiddenjobs.ai/profile-md/#feedback)
 
 - [Show what you built](https://github.com/benohanlon/profile-md-template/discussions). Share a link and tell us where you got stuck.
 - [Contribute to the starter](CONTRIBUTING.md). Report a problem, suggest an improvement or submit a fix.
